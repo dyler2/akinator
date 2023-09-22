@@ -1,4 +1,5 @@
 import akinator
+from config import TOKEN
 from random import *
 from akinator import Akinator
 import telebot
@@ -15,7 +16,7 @@ start = km(
     ]
 )
 
-bot = telebot.TeleBot("6624054899:AAHmKFKNCb7On9NZJAT7FN7L_x0koJCq7Q4")
+bot = telebot.TeleBot(TOKEN)
 
 db = Client("akinator.sqlite")
 
