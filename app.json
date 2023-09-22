@@ -1,0 +1,28 @@
+{
+  "name": "AKINATOR BOT",
+  "description": "A telegram bot made with python, to play media download all !",
+  "logo": "https://telegra.ph/file/4ae7f1f21a85c33b50d58.jpg",
+    "keywords": [
+    "telegram",
+    "Bot",
+    "akinator"
+  ],
+  "repository": "https://github.com/dyler2/mediaall",
+  "website": "https://github.com/dyler2",
+  "success_url": "https://t.me/SOURCE_FRANK",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your bot token",
+      "value": "",
+      "required": true
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ]
+}

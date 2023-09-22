@@ -1,0 +1,5 @@
+akinator
+telebot
+kvsqlite
+pytelegrambotapi
+python-dotenv
